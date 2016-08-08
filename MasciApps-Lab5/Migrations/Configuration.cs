@@ -10,7 +10,6 @@ namespace MasciApps_Lab5.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
-            ContextKey = "MasciApps_Lab5.Models.MusicStoreContext";
         }
 
         protected override void Seed(MasciApps_Lab5.Models.MusicStoreContext context)
