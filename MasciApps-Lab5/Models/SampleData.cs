@@ -6,7 +6,7 @@ using System.Data.Entity;
 
 namespace MasciApps_Lab5.Models
 {
-    public class SampleData : DropCreateDatabaseAlways<MusicStoreContext>
+    public class SampleData : DropCreateDatabaseIfModelChanges<MusicStoreContext>
     {
         protected override void Seed(MusicStoreContext context)
         {
